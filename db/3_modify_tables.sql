@@ -25,7 +25,7 @@ NOTE: If you are having issues with permissions. And you get error:
 -- NOTE: This has been updated from the video to fix issues with encoding
 COPY company_dim
 FROM
-    'D:\Documents\SQL\sql_project\resources\company_dim.csv'
+    'D:\Documents\SQL\sql_project\sql_data_job_analysis\resources\company_dim.csv'
 WITH
     (
         FORMAT csv,
@@ -36,7 +36,7 @@ WITH
 
 COPY skills_dim
 FROM
-    'D:\Documents\SQL\sql_project\resources\skills_dim.csv'
+    'D:\Documents\SQL\sql_project\sql_data_job_analysis\resources\skills_dim.csv'
 WITH
     (
         FORMAT csv,
@@ -47,7 +47,7 @@ WITH
 
 COPY job_postings_fact
 FROM
-    'D:\Documents\SQL\sql_project\resources\job_postings_fact.csv'
+    'D:\Documents\SQL\sql_project\sql_data_job_analysis\resources\job_postings_fact.csv'
 WITH
     (
         FORMAT csv,
@@ -58,7 +58,7 @@ WITH
 
 COPY skills_job_dim
 FROM
-    'D:\Documents\SQL\sql_project\resources\skills_job_dim.csv'
+    'D:\Documents\SQL\sql_project\sql_data_job_analysis\resources\skills_job_dim.csv'
 WITH
     (
         FORMAT csv,
