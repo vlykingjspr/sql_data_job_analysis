@@ -19,8 +19,10 @@ WHERE
     AND salary_year_avg IS NOT NULL
 GROUP BY
     sd.skill_id
+HAVING
+    COUNT(sjd.job_id) > 10
 ORDER BY
-    demand_count DESC,
-    average_salary DESC
+    average_salary DESC,
+    demand_count DESC
 LIMIT
     10

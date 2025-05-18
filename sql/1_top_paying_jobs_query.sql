@@ -8,8 +8,6 @@ Top paying data analyst job and required skills
 SELECT
     jpf.job_id,
     jpf.job_title job,
-    cd.name company_name,
-    COALESCE(STRING_AGG (sd.skills, ', '), 'None') AS skill_required,
     jpf.salary_year_avg salary,
     jpf.job_posted_date posted_date,
     jpf.job_schedule_type job_setup

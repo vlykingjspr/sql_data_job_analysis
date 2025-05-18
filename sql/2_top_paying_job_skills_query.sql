@@ -35,6 +35,8 @@ ORDER BY
     salary DESC;
 
 /*
+This analysis explores the top-paying Data Analyst jobs and the specific skills driving their high salaries. By examining the highest-paid roles, we identify key technical proficiencies—such as SQL, Python, and Tableau—that form the foundation of lucrative data analyst careers. Additionally, skills like Excel, AWS, Power BI, and data manipulation libraries (Pandas, NumPy) are linked to even higher salary brackets, highlighting their growing importance. The findings underscore the value of combining core programming, data visualization, cloud technologies, and collaboration tools to maximize earning potential in the data analytics field.
+
 SQL, Python, and Tableau are the most frequently required skills, highlighting their foundational role in data analysis.
 
 Despite being less frequently listed, Excel, R, and Pandas are tied to high average salaries—around PHP 215K+, showing their strong value.
